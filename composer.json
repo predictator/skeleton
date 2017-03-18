@@ -1,0 +1,26 @@
+{
+  "name": "predictator/skeleton",
+  "authors": [
+    {
+      "name": "Peter Tihanyi",
+      "email": "tihi@systream.hu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Predictator\\": "src/",
+      "Tests\\Predictator\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">= 7.0",
+    "predictator/co-visitation-counts": "dev-master",
+    "predictator/association-rule": "dev-master",
+    "systream/event-dispatcher": "1.*",
+    "systream/knn": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "fzaninotto/faker": "^1.6"
+  }
+}
