@@ -18,7 +18,6 @@
     "predictator/association-rule": "dev-master",
     "systream/event-dispatcher": "1.*",
     "systream/knn": "1.*",
-    "kodus/mail": "~0.2.1",
     "systream/feature-switch": "1.*"
   },
   "require-dev": {
